@@ -59,7 +59,7 @@ class Alice(YaoGarbler):
     def start(self):
         """Start Yao protocol."""
         for circuit in self.circuits:
-            print(f"Enter Alice's inputs:" )
+            print(f"Enter Alice's inputs:" )  #user enter alice input
             a_str = input().split()
             bits_a = [int(bit) for bit in a_str]
 
